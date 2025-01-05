@@ -2,6 +2,35 @@
      styles, `#sidebar-checkbox` for behavior. -->
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
+<!-- Burger Menu Navigation -->
+<nav role="navigation" class="burger-nav">
+  <div id="burger">
+    <input type="checkbox" id="burger-cbox" autocomplete="off">
+    
+    <label id="label-1" for="burger-cbox">
+      <span>[</span><span id="l1-val">+</span><span>]</span>
+    </label>
+    
+    <label id="label-2" for="burger-cbox">
+      <span>[</span><span id="l2-val">x</span><span>]</span>
+    </label>
+    
+    <div id="nav-icons">
+      <!-- About icon -->
+      <a class="nav-icon" aria-label="About" href="{{ '/about/' | relative_url }}">
+        {% include icons/at-sign.svg %}
+        <span class="nav-label">me</span>
+      </a>
+      
+      <!-- Blog icon -->
+      <a class="nav-icon" aria-label="Blog" href="{{ '/blog/' | relative_url }}">
+        {% include icons/book.svg %}
+        <span class="nav-label">blog</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
@@ -28,6 +57,7 @@
     <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+    <a class="sidebar-nav-item{% if page.url == '/blog/' %} active{% endif %}" href="{{ '/blog/' | relative_url }}">Blog</a>
   </nav>
 
   <div class="sidebar-item">

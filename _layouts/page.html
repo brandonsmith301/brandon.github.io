@@ -3,6 +3,8 @@ layout: default
 ---
 
 <div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
+  {% if page.title and page.show_title != false %}
+  <h1 class="page-title">{{ page.title | remove: '.' }}</h1>
+  {% endif %}
   {{ content }}
 </div>

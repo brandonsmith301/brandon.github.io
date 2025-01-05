@@ -1,29 +1,32 @@
 ---
 layout: page
-title: About
+hidden_title: "Me"
+title: ""
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+<h1 class="custom-title">About Me</h1>
+<div class="custom-subtitle">Just a simple introduction</div>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I'm Brandon, an analyst at Monash University and a part-time research assistant at Deakin University. At Monash, I work in the Faculty of Arts, focusing on data analytics and modelling. My research at Deakin specialises in machine learning, particularly in natural language processing (NLP).
 
-There are currently two themes built on Poole:
+Besides work and research, my absolute favourite thing to do is spend time with my partner and our beautiful English Staffy Muffin. Typically, if I am not working or learning, I am with Muffin and my partner, either going for walks or just chilling at home binging the next best series.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+<div class="image-container">
+  <div class="image-wrapper">
+    <img src="/images/img1.jpeg" alt="img1" class="about-image">
+  </div>
+  <div class="image-wrapper">
+    <img src="/images/img2.jpeg" alt="img2" class="about-image">
+  </div>
+  <div class="image-wrapper">
+    <img src="/images/img3.jpg" alt="img3" class="about-image">
+  </div>
+  <div class="image-wrapper">
+    <img src="/images/ski.gif" alt="gif1" class="about-image">
+  </div>
+</div>
+<div class="sketchy-caption">While I show my partner falling in the snow, I had quit long before this moment.</div>
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Most of what I post here will revolve around my interests and learning, especially in solving problems related to data, algorithms, and other intriguing topics. I believe this is a great way to hold myself accountable for my learning and to practice communicating the ideas I've learned, which is an invaluable skill to have (also to solidify my own understanding). 
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Thank you for reading!
